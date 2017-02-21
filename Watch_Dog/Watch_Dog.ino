@@ -47,6 +47,8 @@ void setup() {
 }
 
 void loop() {
+  //beep to notify me that the distance is going to be set
+  //Then wait 6 seconds for me to leave the room
   beep();
   delay(6000);
   beep();
